@@ -1,5 +1,5 @@
 tell application "Terminal"
-    do script "ping 8.8.8.8" # ping Google DNS
-    set frontmost to true # bring window to front
+    do script "ping 8.8.8.8" -- ping Google DNS
+    set frontmost to true -- bring window to front
 end tell
 
